@@ -1,0 +1,64 @@
+html {
+    width: auto;
+}
+
+.weather-search {
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 45%;
+    padding-left: 20px;
+    
+}
+
+.current-weather {
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.row {
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.weather-search h2 {
+    text-align: center;
+}
+
+.forecast-container {
+    justify-content: center;
+}
+
+.forecast {
+    border: blue 3px solid;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+  #search-history p {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: blue;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+  }
+  
